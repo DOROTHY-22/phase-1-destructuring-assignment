@@ -4,17 +4,17 @@ const { expect } = require("chai")
 
 describe("index.js", () => {
   it("String: uses destructuring to declare five animal sounds", () => {
-    expect(moo).to.exist
-    expect(moo).to.equal("cow")
-    expect(neigh).to.exist
-    expect(neigh).to.equal("horse")
-    expect(baa).to.exist
-    expect(baa).to.equal("sheep")
-    expect(oink).to.exist
-    expect(oink).to.equal("pig")
-    expect(cluck).to.exist
-    expect(cluck).to.equal("chicken")
-  })
+    expect(cowSound).to.exist;
+    expect(cowSound).to.equal("moo");
+    expect(horseSound).to.exist;
+    expect(horseSound).to.equal("neigh");
+    expect(sheepSound).to.exist;
+    expect(sheepSound).to.equal("baa");
+    expect(pigSound).to.exist;
+    expect(pigSound).to.equal("oink");
+    expect(chickenSound).to.exist;
+    expect(chickenSound).to.equal("cluck");
+  });
   it("String: uses destructuring to declare the four traditional animal names", () => {
     expect(bessie).to.exist
     expect(bessie).to.equal("cow")
